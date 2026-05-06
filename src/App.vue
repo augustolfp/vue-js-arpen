@@ -11,4 +11,10 @@
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#app > nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+</style>
