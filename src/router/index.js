@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HomePage from "../pages/HomePage.vue";
-import AboutPage from "../pages/AboutPage.vue";
 import ContadorPage from "../pages/ContadorPage.vue";
 
 Vue.use(VueRouter);
@@ -14,11 +13,6 @@ const router = new VueRouter({
       path: "/",
       name: "home",
       component: HomePage,
-    },
-    {
-      path: "/about",
-      name: "about",
-      component: AboutPage,
     },
     {
       path: "/contador",
