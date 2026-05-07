@@ -1,0 +1,52 @@
+:root {
+    --primary: #2563eb;
+    --success: #16a34a;
+    --warning: #d97706;
+    --danger: #dc2626;
+    --text: #0f172a;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+    --surface: #ffffff;
+    --bg: #f8fafc;
+    --radius: 8px;
+    --radius-lg: 12px;
+    --focus: 0 0 0 3px rgba(37, 99, 235, .25);
+}
+
+/* ── Typography ── */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -.02em;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.875rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.7;
+}
